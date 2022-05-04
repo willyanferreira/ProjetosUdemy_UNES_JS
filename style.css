@@ -1,0 +1,5 @@
+table, tr, td{
+    border: 1px solid blue;
+    margin: 0 auto;
+    width: 900px;
+}
