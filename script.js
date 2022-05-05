@@ -4,6 +4,7 @@
         const td_logo = document.createElement('td');
         const td_menu = document.createElement('td');
 
+        document.body.style.backgroundImage = "url('img/fundo.png')";
         document.body.appendChild(table);
         table.appendChild(tr_header);
 
