@@ -12,6 +12,7 @@
         const img_logo = document.createElement('img');
         img_logo.src = 'img/logo.png';
         td_logo.appendChild(img_logo);
+        td_logo.setAttribute('height', 89);
         td_menu.innerHTML = 'Só Jesus Salva.';
 
         tr_header.appendChild(td_logo);
