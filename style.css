@@ -3,3 +3,12 @@ table, tr, td{
     margin: 0 auto;
     width: 900px;
 }
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+li{
+    padding-right: 15px;
+}
