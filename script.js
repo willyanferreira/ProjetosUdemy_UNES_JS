@@ -13,10 +13,32 @@
         img_logo.src = 'img/logo.png';
         td_logo.appendChild(img_logo);
         td_logo.setAttribute('height', 89);
-        td_menu.innerHTML = 'Só Jesus Salva.';
 
         tr_header.appendChild(td_logo);
         tr_header.appendChild(td_menu);
+        
+        const ul_menu = document.createElement('ul');
+
+        const li_home = document.createElement('li');
+        const li_quemSomos = document.createElement('li');
+        const li_contato = document.createElement('li');
+
+        const link_home = document.createElement('a');
+        link_home.innerHTML = "HOME";
+        const link_quemSomos = document.createElement('a');
+        link_quemSomos.innerHTML = "QUEM SOMOS";
+        const link_contato = document.createElement('a');
+        link_contato.innerHTML = "CONTATO";
+
+        td_menu.appendChild(ul_menu);
+
+        ul_menu.appendChild(li_home);
+        ul_menu.appendChild(li_quemSomos);
+        ul_menu.appendChild(li_contato);
+
+        li_home.appendChild(link_home);
+        li_quemSomos.appendChild(link_quemSomos);
+        li_contato.appendChild(link_contato);
 
         //Body do Site
         const tr_capa = document.createElement('tr');
