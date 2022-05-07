@@ -1,4 +1,5 @@
         //Header do Site
+        document.body.classList = 'home';
         const table = document.createElement('table');
         table.setAttribute('align', 'center');
         table.setAttribute('width', '900');
@@ -7,7 +8,7 @@
         const td_logo = document.createElement('td');
         const td_menu = document.createElement('td');
 
-        document.body.style.backgroundImage = "url('img/fundo.png')";
+        // document.body.style.backgroundImage = "url('img/fundo.png')";
         document.body.appendChild(table);
         table.appendChild(tr_header);
 
