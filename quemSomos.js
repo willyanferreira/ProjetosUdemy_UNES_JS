@@ -31,7 +31,7 @@
         link_home.setAttribute('href', 'index.html');
 
         const link_quemSomos = document.createElement('a');
-        link_quemSomos.innerHTML = "QUEM SOMOS";
+        link_quemSomos.innerHTML = "SOBRE MIM";
         link_quemSomos.setAttribute('href', '#');
 
         const link_contato = document.createElement('a');
@@ -79,7 +79,7 @@
         lista.appendChild(li_html);
         lista.appendChild(li_css);
         lista.appendChild(li_js);
-        
+
         //Footer do Site
         const tr_footer = document.createElement('tr');
 
