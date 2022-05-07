@@ -52,6 +52,7 @@
         //Body do Site
         const tr_capa = document.createElement('tr');
         const td_capa = document.createElement('td');
+        td_capa.classList = 'capa';
         td_capa.setAttribute('colspan', 2);
         
         const img_capa = document.createElement('img');
@@ -76,6 +77,7 @@
         tr_content.appendChild(td_content);
         td_content.appendChild(h2_content);
         td_content.appendChild(paragrafo);
+        td_content.classList = 'content';
 
         //Footer do Site
         const tr_footer = document.createElement('tr');
