@@ -31,7 +31,7 @@
         link_home.setAttribute('href', '#');
 
         const link_quemSomos = document.createElement('a');
-        link_quemSomos.innerHTML = "QUEM SOMOS";
+        link_quemSomos.innerHTML = "SOBRE MIM";
         link_quemSomos.setAttribute('href', 'quemSomos.html');
 
         const link_contato = document.createElement('a');
