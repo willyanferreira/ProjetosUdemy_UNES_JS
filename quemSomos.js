@@ -58,7 +58,7 @@
         h2_content.innerHTML = 'Sobre mim';
 
         const paragrafo = document.createElement('p');
-        paragrafo.innerHTML = '<strong>Estudante</strong> de Análise e Desenvolvimento de Sistemas.<hr>';
+        paragrafo.innerHTML = '<strong>Estudante</strong> de Análise e Desenvolvimento de Sistemas.';
 
         const lista = document.createElement('ol');
         const li_html = document.createElement('li');
