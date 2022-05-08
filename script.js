@@ -6,7 +6,9 @@
 
         const tr_header = document.createElement('tr');
         const td_logo = document.createElement('td');
+        td_logo.classList = 'logo';
         const td_menu = document.createElement('td');
+        td_menu.classList = 'dropDown';
 
         // document.body.style.backgroundImage = "url('img/fundo.png')";
         document.body.appendChild(table);
