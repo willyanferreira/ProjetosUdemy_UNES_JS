@@ -10,9 +10,12 @@
         width: 100%;
     }
     body{background-color: violet;}
+    td.logo img{width: 200px;}
     td.capa{height: 400px;}
     td.content{height: 200px;}
     td.content h2{padding-bottom: 20px;}
+    .dropDown::before{content: 'teste'; width: 20px; display: block; line-height: 10px;}
+    .dropDown ul{display: none; text-align: center; border: 1px solid green;}
 }
 
 ul{
