@@ -14,8 +14,9 @@
     td.capa{height: 400px;}
     td.content{height: 200px;}
     td.content h2{padding-bottom: 20px;}
-    .dropDown::before{content: 'teste'; width: 20px; display: block; line-height: 10px;}
+    .dropDown::before{content: 'MENU'; border: 1px solid saddlebrown;}
     .dropDown ul{display: none; text-align: center; border: 1px solid green;}
+    .dropDown:hover ul{display: block;}
 }
 
 ul{
