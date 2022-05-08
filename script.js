@@ -1,3 +1,5 @@
+        //OBS: Sempre escrever códigos que fazem parte da mesma família no mesmo escopo, mesmo que surjam depois e que não precisem estar próximos, isso ajuda na hora de depurar.
+
         //Header do Site
         document.body.classList = 'home';
         const table = document.createElement('table');

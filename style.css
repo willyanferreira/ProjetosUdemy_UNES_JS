@@ -1,6 +1,9 @@
 @media only screen and (min-width:768px){
     body.home{background-image: url('img/fundo.png');}
     body{background-image: url('img/fundo2.png');}
+    span{border: 1px solid red; display: block;}
+    td.dropDown{border: 1px solid red;}
+    td.dropDown ul{border: 1px solid red; display: inline-block;}
 }
 @media only screen and (max-width:768px){
     *{
@@ -9,14 +12,17 @@
         box-sizing: border-box;
         width: 100%;
     }
+
     body{background-color: violet;}
     td.logo img{width: 200px;}
     td.capa{height: 400px;}
     td.content{height: 200px;}
     td.content h2{padding-bottom: 20px;}
-    .dropDown::before{content: 'MENU'; border: 1px solid saddlebrown;}
-    .dropDown ul{display: none; text-align: center; border: 1px solid green;}
-    .dropDown:hover ul{display: block;}
+
+    span{border: 1px solid red; display: block;}
+    td.dropDown{border: 1px solid red;}
+    td.dropDown ul{border: 1px solid red; display: none;}
+    span:active~ul{display: block;}
 }
 
 ul{
