@@ -3,28 +3,27 @@
         const table = document.createElement('table');
         table.setAttribute('align', 'center');
         table.setAttribute('width', '900');
-
-        const tr_header = document.createElement('tr');
-        const td_logo = document.createElement('td');
-        td_logo.classList = 'logo';
-        const td_menu = document.createElement('td');
-        td_menu.classList = 'dropDown';
-
-        // document.body.style.backgroundImage = "url('img/fundo.png')";
         document.body.appendChild(table);
+        const tr_header = document.createElement('tr');
         table.appendChild(tr_header);
 
-        
+        //Logo do Site
+        const td_logo = document.createElement('td');
+        td_logo.classList = 'logo';
+        tr_header.appendChild(td_logo);
         const img_logo = document.createElement('img');
         img_logo.src = 'img/logo.png';
         td_logo.appendChild(img_logo);
         td_logo.setAttribute('height', 89);
 
-        tr_header.appendChild(td_logo);
+        //Menu do Site
+        const span_menu = document.createElement('span');
+        span_menu.innerHTML = 'MENU';
+        const td_menu = document.createElement('td');
+        td_menu.classList = 'dropDown';
         tr_header.appendChild(td_menu);
         
         const ul_menu = document.createElement('ul');
-
         const li_home = document.createElement('li');
         const li_quemSomos = document.createElement('li');
         const li_contato = document.createElement('li');
@@ -41,6 +40,7 @@
         link_contato.innerHTML = "CONTATO";
         link_contato.setAttribute('href', 'contato.html');
 
+        td_menu.appendChild(span_menu);
         td_menu.appendChild(ul_menu);
 
         ul_menu.appendChild(li_home);
