@@ -19,13 +19,17 @@
         td_logo.setAttribute('height', 89);
 
         //Menu do Site
+        const td_div_menu = document.createElement('div');
+        td_div_menu.classList = 'dropDown';
+
         const span_menu = document.createElement('span');
         span_menu.innerHTML = 'MENU';
+
         const td_menu = document.createElement('td');
-        td_menu.classList = 'dropDown';
         tr_header.appendChild(td_menu);
         
         const ul_menu = document.createElement('ul');
+        ul_menu.classList = 'dropDownContent';
         const li_home = document.createElement('li');
         const li_quemSomos = document.createElement('li');
         const li_contato = document.createElement('li');
@@ -42,8 +46,9 @@
         link_contato.innerHTML = "CONTATO";
         link_contato.setAttribute('href', 'contato.html');
 
-        td_menu.appendChild(span_menu);
-        td_menu.appendChild(ul_menu);
+        td_menu.appendChild(td_div_menu);
+        td_div_menu.appendChild(span_menu);
+        td_div_menu.appendChild(ul_menu);
 
         ul_menu.appendChild(li_home);
         ul_menu.appendChild(li_quemSomos);
