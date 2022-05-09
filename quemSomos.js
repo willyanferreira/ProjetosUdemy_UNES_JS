@@ -5,6 +5,8 @@
 
         const tr_header = document.createElement('tr');
         const td_logo = document.createElement('td');
+        td_logo.classList = 'logo';
+
         const td_menu = document.createElement('td');
 
         // document.body.style.backgroundImage = "url('img/fundo2.png')";
@@ -19,8 +21,13 @@
 
         tr_header.appendChild(td_logo);
         tr_header.appendChild(td_menu);
-        
+        const td_div_menu = document.createElement('div');
+        td_div_menu.classList = 'dropDown';
+
+        const span_menu = document.createElement('span');
+        span_menu.innerHTML = 'MENU';
         const ul_menu = document.createElement('ul');
+        ul_menu.classList = 'dropDownContent';
 
         const li_home = document.createElement('li');
         const li_quemSomos = document.createElement('li');
@@ -38,7 +45,9 @@
         link_contato.innerHTML = "CONTATO";
         link_contato.setAttribute('href', 'contato.html');
 
-        td_menu.appendChild(ul_menu);
+        td_menu.appendChild(td_div_menu);
+        td_div_menu.appendChild(span_menu);
+        td_div_menu.appendChild(ul_menu);
 
         ul_menu.appendChild(li_home);
         ul_menu.appendChild(li_quemSomos);
@@ -52,6 +61,7 @@
         const tr_content = document.createElement('tr');
 
         const td_content = document.createElement('td');
+        td_content.classList = 'content';
         td_content.setAttribute('colspan', 2);
 
         const h2_content = document.createElement('h2');
