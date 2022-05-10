@@ -13,8 +13,8 @@
     td.capa{height: 400px;}
     td.content{height: 200px;}
     td.content h2{padding-bottom: 20px;}
-    .dropDown{display: inline-block; position: relative; min-width: 150px; text-align: center;}
-    .dropDown span{margin: 5px; padding: 5px; background-color: #E6E6FA;}
+    .dropDown{display: inline-block; position: relative; min-width: 150px; text-align: right;}
+    .dropDown span{margin: 5px; padding: 5px; background-color: #E6E6FA; border-radius: 50px;}
     .dropDownContent{position: absolute; z-index: 1; display: none; text-align: center;}
     .dropDownContent li{display: inline-block; text-align: center; padding: 5px;}
     .dropDownContent li:hover{background-color: #E6E6FA;}
