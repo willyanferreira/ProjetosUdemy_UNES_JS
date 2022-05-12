@@ -16,7 +16,7 @@
         const img_logo = document.createElement('img');
         img_logo.src = 'img/logo.png';
         td_logo.appendChild(img_logo);
-        td_logo.setAttribute('height', 89);
+        td_logo.setAttribute('height', '150px');
 
         //Menu do Site
         const td_div_menu = document.createElement('div');
@@ -80,7 +80,7 @@
         h2_content.innerHTML = 'Sobre a UNES';
 
         const paragrafo = document.createElement('p');
-        paragrafo.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit fuga repudiandae atque maiores praesentium incidunt. Ducimus, explicabo, obcaecati natus, recusandae in rem a nemo dolorum at pariatur blanditiis magnam eum.';
+        paragrafo.innerHTML = 'Este projeto é o primeiro ensinado em curso da Udemy.';
 
         table.appendChild(tr_content);
         tr_content.appendChild(td_content);
@@ -101,3 +101,4 @@
         table.appendChild(tr_footer);
         tr_footer.appendChild(td_footer);
         td_footer.appendChild(h4_footer);
+        td_footer.setAttribute('height', '100px');
