@@ -72,13 +72,19 @@
 
         const lista = document.createElement('ol');
         const li_html = document.createElement('li');
-        li_html.innerHTML = "HTML";
         const li_css = document.createElement('li');
-        li_css.innerHTML = "CSS";
         const li_js = document.createElement('li');
-        li_js.innerHTML = "JavaScript";
         const h2_lista = document.createElement('h2');
         h2_lista.innerHTML = "Tecnologias que estou estudando atualmente";
+        const a_html = document.createElement('img');
+        // a_html.style.width = '50px';
+        a_html.setAttribute('src', 'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg');
+        const a_css = document.createElement('img');
+        // a_css.style.width = '50px';
+        a_css.setAttribute('src', 'https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg');
+        const a_js = document.createElement('img');
+        // a_js.style.width = '50px';
+        a_js.setAttribute('src', 'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg');
 
         table.appendChild(tr_content);
         tr_content.appendChild(td_content);
@@ -89,6 +95,9 @@
         lista.appendChild(li_html);
         lista.appendChild(li_css);
         lista.appendChild(li_js);
+        li_html.appendChild(a_html);
+        li_css.appendChild(a_css);
+        li_js.appendChild(a_js);       
 
         //Footer do Site
         const tr_footer = document.createElement('tr');
@@ -103,3 +112,4 @@
         table.appendChild(tr_footer);
         tr_footer.appendChild(td_footer);
         td_footer.appendChild(h4_footer);
+        td_footer.setAttribute('height', '100px');
