@@ -67,18 +67,35 @@
         td_content.setAttribute('colspan', 2);
 
         const h2_content = document.createElement('h2');
-        h2_content.innerHTML = 'Veja mais';
+        h2_content.innerHTML = 'Veja mais em:';
 
-        const github = "https://github.com/willyanferreira";
-        const linkedIn = "https://www.linkedin.com/in/willyan-ferreira-a0a750206/";
+        const div_img = document.createElement('div');
+        div_img.classList = 'containerDeImagens';
+        const img_linkedin = document.createElement('img');
+        img_linkedin.setAttribute('src', 'img/linkedin.png');
+        const img_github = document.createElement('img');
+        img_github.setAttribute('src', 'img/github.png');
 
-        const paragrafo = document.createElement('p');
-        paragrafo.innerHTML = `Acesse meu <a href="${linkedIn}">LinkedIn</a> e meu <a href="${github}">Github</a>`;
+        const link_linkedin = document.createElement('a');
+        link_linkedin.setAttribute('href', 'https://www.linkedin.com/in/willyan-ferreira-a0a750206/');
+        const link_github = document.createElement('a');
+        link_github.setAttribute('href', 'https://github.com/willyanferreira');
+
+        // const github = "https://github.com/willyanferreira";
+        // const linkedIn = "https://www.linkedin.com/in/willyan-ferreira-a0a750206/";
+
+        // const paragrafo = document.createElement('p');
+        // paragrafo.innerHTML = `Acesse meu <a href="${linkedIn}">LinkedIn</a> e meu <a href="${github}">Github</a>`;
 
         table.appendChild(tr_content);
         tr_content.appendChild(td_content);
         td_content.appendChild(h2_content);
-        td_content.appendChild(paragrafo);
+        // td_content.appendChild(paragrafo);
+        td_content.appendChild(div_img);
+        div_img.appendChild(link_linkedin);
+        div_img.appendChild(link_github);
+        link_linkedin.appendChild(img_linkedin);
+        link_github.appendChild(img_github);
 
         //Footer do Site
         const tr_footer = document.createElement('tr');
@@ -93,3 +110,4 @@
         table.appendChild(tr_footer);
         tr_footer.appendChild(td_footer);
         td_footer.appendChild(h4_footer);
+        td_footer.setAttribute('height', '110px');
