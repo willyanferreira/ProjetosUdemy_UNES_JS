@@ -16,7 +16,7 @@
         const img_logo = document.createElement('img');
         img_logo.src = 'img/logo.png';
         td_logo.appendChild(img_logo);
-        td_logo.setAttribute('height', '150px');
+        td_logo.setAttribute('height', '89px');
 
         //Menu do Site
         const td_div_menu = document.createElement('div');
@@ -96,7 +96,7 @@
         td_footer.setAttribute('align', 'center');
 
         const h4_footer = document.createElement('h4');
-        h4_footer.innerHTML = 'Todos os direitos reservados';
+        h4_footer.innerHTML = 'Willyan C.F.S';
 
         table.appendChild(tr_footer);
         tr_footer.appendChild(td_footer);
