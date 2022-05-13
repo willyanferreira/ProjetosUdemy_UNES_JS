@@ -19,8 +19,8 @@
 </div>
       
 <div>
-     <h3 align="center">Imagens do projeto editado acessado em um dispositivo móvelh3>
-     <img src="img/pagina_home_celular.jpeg" >
+     <h3 align="center">Imagens do projeto editado acessado em um dispositivo móvel<h3>
+     <img src="img/pagina_home_celular.jpeg">
      <div>
          <img src="img/pagina_sobre_celular.jpeg" title="Primeiro modelo da página sobre" width="500">
          <img src="img/pagina_sobre_celular2.jpeg" title="Segundo modelo da página sobre" width="500">
