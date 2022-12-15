@@ -16,9 +16,9 @@
   </a>
 </p>
 
-<h2>Irei refazer o site fictício UNES(criado em curso da UDEMY) usando apenas JS e CSS</h2>
+<h2>Irei refazer o site fictício UNES(criado em curso da UDEMY) usando apenas  HTML, CSS e JS</h2>
 <p>Aviso: Esse desafio não tem como objetivo recriar o projeto UNES para ser considerado melhor que o projeto original</p>
-<p>Objetivo: Apenas me desafia e praticar algumas das tecnologias técnicas que estudei e estou estudando no momento</p>
+<p>Objetivo: Apenas me desafia e praticar algumas das tecnologias e técnicas que estudei e estou estudando no momento(deste desafio)</p>
 
 <div>
      <h3 align="center">Imagens do projeto original acessado em um desktop<h3>
