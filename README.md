@@ -1,4 +1,21 @@
 <h1 align="center" style="color: red;">Desafio_ProjetosUdemy_UNES</h1>
+
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/willyanferreira/Desafio_ProjetosUdemy_UNES" />
+  
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/willyanferreira/Desafio_ProjetosUdemy_UNES" />
+  
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/willyanferreira/Desafio_ProjetosUdemy_UNES" />
+
+  <a href="https://github.com/leovargasdev/sonoplastia-vai-dar-namoro/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/willyanferreira/Desafio_ProjetosUdemy_UNES" />
+  </a>
+  
+  <a href="https://github.com/leovargasdev/sonoplastia-vai-dar-namoro/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/willyanferreira/Desafio_ProjetosUdemy_UNES" />
+  </a>
+</p>
+
 <h2>Irei refazer o site fictício UNES(criado em curso da UDEMY) usando apenas JS e CSS</h2>
 <p>Aviso: Esse desafio não tem como objetivo recriar o projeto UNES para ser considerado melhor que o projeto original</p>
 <p>Objetivo: Apenas me desafia e praticar algumas das tecnologias técnicas que estudei e estou estudando no momento</p>
