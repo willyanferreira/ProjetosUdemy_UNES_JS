@@ -76,16 +76,10 @@
         const li_js = document.createElement('li');
         const h2_lista = document.createElement('h2');
         h2_lista.innerHTML = "Tecnologias que estou estudando atualmente";
-        const a_html = document.createElement('img');
-        // a_html.style.width = '50px';
-        a_html.setAttribute('src', 'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg');
-        const a_css = document.createElement('img');
-        // a_css.style.width = '50px';
-        a_css.setAttribute('src', 'https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg');
+        
         const a_js = document.createElement('img');
-        // a_js.style.width = '50px';
-        a_js.setAttribute('src', 'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg');
-
+        a_js.setAttribute('src', 'https://raw.githubusercontent.com/devicons/devicon/master/icons/angular/angular-original.svg');
+      
         table.appendChild(tr_content);
         tr_content.appendChild(td_content);
         td_content.appendChild(h2_content);
